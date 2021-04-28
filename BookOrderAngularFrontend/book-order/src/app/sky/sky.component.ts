@@ -1,3 +1,4 @@
+import { SkyService } from './../sky.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkyComponent implements OnInit {
 
-  constructor() { }
+  constructor(private skyService: SkyService) { }
 
   ngOnInit() {
   }
