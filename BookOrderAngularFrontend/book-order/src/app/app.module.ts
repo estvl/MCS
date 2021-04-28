@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SkyServiceComponent } from './sky-service/sky-service.component';
+import { SkyComponent } from './sky/sky.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [		
+    AppComponent,
+      SkyServiceComponent,
+      SkyComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule
